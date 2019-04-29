@@ -2,11 +2,14 @@ package randy.leetcode;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.TreeMap;
 
 // https://leetcode-cn.com/problems/my-calendar-i/
 // 729. 我的日程安排表 I
 public class MyCalendar {
     private List<Range> ranges;
+
+    private TreeMap<Integer, Integer> calendar;
 
     public MyCalendar() {
         ranges = new ArrayList<>();
@@ -62,6 +65,18 @@ public class MyCalendar {
             ranges.add(i, Range.of(start, end));
         }
         return true;
+    }
+
+    public boolean book3(int start, int end) {
+        // 本质还是利用TreeMap排序，检查前后2个日程是否冲突
+        Integer prev = calendar.floorKey(start);
+        Integer next = calendar.ceilingKey(start);
+        if ((prev == null || calendar.get(prev) <= start)
+                && (next == null || end <= next)) {
+            calendar.put(start, end);
+            return true;
+        }
+        return false;
     }
 
     public static void main(String[] args) {
