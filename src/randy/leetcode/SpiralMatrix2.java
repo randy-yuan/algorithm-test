@@ -43,7 +43,7 @@ public class SpiralMatrix2 {
     }
 
     public static void main(String[] args) {
-        int[][] a = generateMatrix(1);
+        int[][] a = generateMatrix(5);
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a.length; j++) {
                 System.out.print(a[i][j]);
