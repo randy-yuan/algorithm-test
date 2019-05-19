@@ -1,5 +1,7 @@
 package randy.leetcode;
 
+import java.util.List;
+
 public class PrintUtils {
     public static void print(int[] a) {
         System.out.print("result:");
@@ -7,5 +9,11 @@ public class PrintUtils {
             System.out.print(" " + a[i]);
         }
         System.out.println();
+    }
+
+    public static void print(List<?> list) {
+        for (Object obj: list) {
+            System.out.println(obj);
+        }
     }
 }
