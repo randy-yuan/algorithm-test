@@ -3,9 +3,12 @@ package randy.leetcode;
 import java.util.HashMap;
 import java.util.Map;
 
-// https://leetcode-cn.com/problems/copy-list-with-random-pointer/
-// 138. 复制带随机指针的链表
-// https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/fu-zhi-dai-sui-ji-zhi-zhen-de-lian-biao-by-leetcod/
+/** https://leetcode-cn.com/problems/copy-list-with-random-pointer/
+ * 138. 复制带随机指针的链表
+ * https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/fu-zhi-dai-sui-ji-zhi-zhen-de-lian-biao-by-leetcod/
+ *
+ * @see CloneGraph
+ */
 public class CopyListWithRandomPointer {
     class Node {
         public int val;
