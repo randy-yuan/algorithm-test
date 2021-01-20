@@ -1,4 +1,4 @@
-package leetcode;
+package randy.leetcode;
 
 // 321 https://leetcode-cn.com/problems/create-maximum-number/
 public class CreateMaximumNumber {

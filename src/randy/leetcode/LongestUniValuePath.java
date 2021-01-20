@@ -1,4 +1,4 @@
-package leetcode;
+package randy.leetcode;
 
 // 687. https://leetcode-cn.com/problems/longest-univalue-path/
 public class LongestUniValuePath {

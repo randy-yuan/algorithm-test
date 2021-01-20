@@ -1,4 +1,4 @@
-package leetcode;
+package randy.leetcode;
 
 public class PlayWithChips {
     public int minCostToMoveChips(int[] chips) {

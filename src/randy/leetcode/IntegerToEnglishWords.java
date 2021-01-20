@@ -1,4 +1,4 @@
-package leetcode;
+package randy.leetcode;
 
 // https://leetcode-cn.com/problems/integer-to-english-words/
 public class IntegerToEnglishWords {

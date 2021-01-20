@@ -1,4 +1,4 @@
-package leetcode;
+package randy.leetcode;
 
 import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 

@@ -16,4 +16,10 @@ public class PrintUtils {
             System.out.println(obj);
         }
     }
+
+    public static void print(Object[] a) {
+        for (Object obj: a) {
+            System.out.println(obj);
+        }
+    }
 }

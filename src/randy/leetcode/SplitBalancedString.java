@@ -1,4 +1,4 @@
-package leetcode;
+package randy.leetcode;
 
 public class SplitBalancedString {
     public int balancedStringSplit(String s) {
